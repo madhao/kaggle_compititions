@@ -1,0 +1,12 @@
+# Ignore everything:
+*
+
+# Do not ignore these files:
+!*.ipynb
+!*.py
+!.gitignore
+
+.ipynb_checkpoints
+
+# ...even if they are in subdirectories
+!*/
